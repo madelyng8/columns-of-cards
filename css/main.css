@@ -18,25 +18,25 @@ h2 {
 h3 {
   font-size: 1rem;
   text-align: left;
+  margin-bottom: .1rem;
 }
 
 body {
   background-color: #f2f2f2;
   margin: 0;
-  flex-direction: column;
 }
 
 img {
   display: block;
   width: 100%;
   text-align: center;
-  margin-top: 1rem;
 }
 
 .img {
-  width: 25%;
+  width: 100px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: .8rem;
 }
 
 .btn-small {
@@ -47,11 +47,12 @@ img {
   background-color: #333;
   text-decoration: none;
   border: solid 2px #333;
-  border-radius: 18px;
+  border-radius: 10px;
   color: #f2f2f2;
   font-size: .875rem;
-  padding: 1.5rem .75rem;
+  padding: .5rem 1.3rem;
   display: inline-block;
+  margin-bottom: .5rem;
 }
 
 .btn:hover {
@@ -60,22 +61,32 @@ img {
 
 .quest {
   background-color: #e2e2e2;
+  display: flex;
+  flex-direction: column;
 }
 
 .columns {
   display: flex;
+  padding: 0 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .dino {
   background-color: #ccc;
+  display: flex;
+  flex-direction: column;
 }
 
 .dragon {
   background-color: #aaa;
+  display: flex;
+  flex-direction: column;
 }
 
 .laser {
   background-color: #999;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
@@ -89,10 +100,7 @@ img {
   align-items: stretch;
 }
 
-.para3 {
-  margin-bottom: 2.3em;
-}
-
 .italic {
   font-style: italic;
+  margin-top: 0;
 }
